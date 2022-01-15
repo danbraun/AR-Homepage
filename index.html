@@ -1,27 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <style>
-        .social {
-            display: inline-block;
-            background: black;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
 
+    <div class="abox">
+        
+    </div>
+
+    <svg style="display:none;" aria-hidden="true" focusable="false" role="img">
+        <symbol viewBox="0 0 448 512" id="hamburger">
+            <path fill="currentColor"
+                d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z">
+            </path>
+        </symbol>
+
+    </svg>
+
     <header>
-        <ul class="social">
+        <div class="containen-fluid temp-bg">
+        </div>
+
+        <button class="menu-button" onclick="openNav()">
+            <svg width="40px" height="40px">
+                <use xlink:href="#hamburger"></use>
+            </svg>
+        </button>
+
+
+        <ul class="social position-fixed">
             <li><img src="images/social-footer-Facebook@60x60.png" alt=""></li>
             <li><img src="images/social-footer-Instagram@60x60.png" alt=""></li>
             <li><img src="images/social-footer-Linkedin@60x60.png" alt=""></li>
-            <li><img src="images/social-footer-Linkedin@60x60.png" alt=""></li>
+            <li><img src="images/social-footer-Twitter@60x60.png" alt=""></li>
         </ul>
     </header>
-    
+
+    <div class="content container">
+
+        <h2 class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit, doloribus.</h2>
+        <div class="row">
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero atque voluptatum ratione? Consequuntur
+                    odit minima, doloribus quibusdam magni aut aliquam et perferendis amet exercitationem omnis animi
+                    fugit dolor laboriosam eaque deleniti dolore. Nihil, illo sed corporis, suscipit omnis voluptate
+                    delectus vel laudantium reiciendis aspernatur quaerat, provident ullam possimus ea? Tenetur
+                    exercitationem, aut non aliquid, assumenda corrupti reiciendis autem hic repudiandae dolorem quia
+                    nobis tempora animi distinctio maiores labore illo neque inventore, accusantium quas voluptate ipsa.
+                    Hic possimus earum est animi, officiis sint perferendis quod aperiam ut mollitia architecto impedit
+                    nemo alias in, sit vitae illo eligendi. Natus eveniet repellat labore quam, excepturi ipsum
+                    obcaecati quia explicabo sit animi totam expedita necessitatibus ad. Delectus corrupti fugiat et
+                    voluptas! Doloribus mollitia tempore ut? Soluta provident necessitatibus praesentium. Totam labore
+                    expedita dolorum provident quos a blanditiis itaque possimus aliquid optio. Neque nisi velit
+                    voluptates rem nam laborum, et nihil saepe temporibus libero ad, inventore numquam cumque tenetur
+                    reprehenderit. Doloremque, aspernatur assumenda veniam, modi impedit veritatis deleniti vero officia
+                    voluptatum eius alias perspiciatis quae tempore accusantium, quas obcaecati illo corrupti soluta
+                    itaque expedita atque! Commodi dignissimos illum eum saepe quas nulla incidunt nam corrupti tenetur
+                    aliquid? Natus minima in, sunt voluptas fugit harum ducimus.</p>
+            </div>
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi nulla iste ducimus labore deserunt
+                    porro officiis necessitatibus obcaecati. Ut itaque facilis qui eaque nemo libero odio reiciendis,
+                    facere, incidunt quidem explicabo, magnam ab placeat sint. Fuga accusantium sed minima. Fugiat optio
+                    veniam est, veritatis recusandae labore quos eaque, laborum quis mollitia totam eos vero nostrum
+                    reprehenderit blanditiis at provident! Rem consequatur, rerum quaerat voluptates quis blanditiis
+                    repellat odit iusto praesentium magnam dolor veniam, dolores architecto? Esse quis laborum fugit.
+                    Sint assumenda repudiandae, quas quia iste, quos dolore doloribus dignissimos provident placeat
+                    minima aperiam impedit, blanditiis quisquam earum laborum alias nobis? Nostrum, praesentium?
+                    Officiis explicabo tenetur, tempore nostrum at provident. Sit aspernatur excepturi itaque voluptates
+                    earum voluptate facilis maiores assumenda praesentium reprehenderit. Maiores quaerat placeat
+                    voluptatum error minima harum repellat numquam eaque blanditiis, at asperiores doloribus saepe,
+                    laboriosam aperiam, distinctio a ducimus debitis pariatur facere quis. Reprehenderit nam deserunt
+                    adipisci, reiciendis cum quod expedita ad optio saepe hic nemo sapiente blanditiis asperiores ex,
+                    minima error aliquam officia animi corrupti nostrum aspernatur fugit veritatis ut! Quibusdam fuga
+                    quisquam, corrupti ipsa officiis ipsum delectus reprehenderit architecto enim sunt error qui
+                    aliquam, iste sed rerum sapiente adipisci deserunt omnis accusamus similique unde eveniet. Alias.
+                </p>
+            </div>
+        </div>
+
+
+    </div>
+
+    <div id="overlayMenu" class="overlay-menu">
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+        <!-- Overlay content -->
+        <div class="overlay-menu-content">
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Clients</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <script>
+        /* Open when someone clicks on the span element */
+        function openNav() {
+            document.getElementById("overlayMenu").style.width = "100%";
+        }
+
+        /* Close when someone clicks on the "x" symbol inside the overlay */
+        function closeNav() {
+            document.getElementById("overlayMenu").style.width = "0%";
+        }
+    </script>
+
 </body>
+
 </html>
